@@ -165,7 +165,19 @@ main {
   outline-offset: 2px;
 }
 
-
+.intro-box {
+  border: 1px solid #c45c4a;
+  padding: 10px;
+  margin: 10px;
+  background-image:
+    linear-gradient(#7ecbc4 1px, transparent 1px),
+    linear-gradient(90deg, #7ecbc4 1px, transparent 1px);
+    background-size: 20px 20px;
+    min-height: 400px;
+    padding: 20px;
+    margin: 0 10px 10px 10px;
+    border: 1px solid #7ecbc4;
+}
 
 /*-----------------------------------
   FOOTER
