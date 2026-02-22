@@ -82,6 +82,8 @@ figcaption:hover {
   border: 1px solid #c45c4a;
   padding: 10px;
   margin: 10px;
+  outline: 1px dotted #c45c4a;
+  outline-offset: 2px;
 }
 
 .navigation-box ul {
