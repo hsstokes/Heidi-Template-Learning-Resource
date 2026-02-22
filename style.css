@@ -170,20 +170,17 @@ main {
 }
 
 .intro-box {
-  border: 1px solid #c45c4a;
+  border: 1px solid #8a7a9c;
   padding: 10px;
   margin: 10px;
   background-image:
     linear-gradient(#8a7a9c 1px, transparent 0.5px),
     linear-gradient(90deg, #8a7a9c 1px, transparent 0.5px);
   background-size: 20px 20px;
-  outline: 1px dotted #c45c4a;
+  outline: 1px dotted #8a7a9c;
   outline-offset: 2px;
 }
 
-.intro-box h3 {
-  color: #2a7a72;
-}
 
 /*-----------------------------------
   FOOTER
