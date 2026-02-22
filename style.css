@@ -181,6 +181,14 @@ main {
   outline-offset: 2px;
 }
 
+.intro-box h3 {
+  background-color: #f5f5dc;
+  padding: 8px 12px;
+  display: inline-block;
+  border: 1px solid #8a7a9c;
+  margin: 0;
+}
+
 
 /*-----------------------------------
   FOOTER
