@@ -161,7 +161,8 @@ main {
   border: 1px solid #c45c4a;
   padding: 10px;
   margin: 10px;
-  align-items: center;
+  outline: 2px solid #c45c4a;
+  outline-offset: 3px;
 }
 
 
