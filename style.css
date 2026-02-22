@@ -122,6 +122,8 @@ main {
   padding: 20px;
   margin: 0 10px 10px 10px;
   border: 1px solid #7ecbc4;
+  outline: 1px dotted #c45c4a;
+  outline-offset: 2px;
 }
 
 /*-----------------------------------
