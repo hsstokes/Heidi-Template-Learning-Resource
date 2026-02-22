@@ -174,8 +174,8 @@ main {
   padding: 10px;
   margin: 10px;
   background-image:
-    linear-gradient(#d4a857 1px, transparent 0.5px),
-    linear-gradient(90deg, #d4a857 1px, transparent 0.5px);
+    linear-gradient(#b8a9c9 1px, transparent 0.5px),
+    linear-gradient(90deg, #b8a9c9 1px, transparent 0.5px);
   background-size: 20px 20px;
   outline: 1px dotted #c45c4a;
   outline-offset: 2px;
