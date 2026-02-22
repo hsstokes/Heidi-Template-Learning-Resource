@@ -173,6 +173,8 @@ main {
     linear-gradient(#7ecbc4 1px, transparent 1px),
     linear-gradient(90deg, #7ecbc4 1px, transparent 1px);
     background-size: 20px 20px;
+  outline: 1px dotted #c45c4a;
+  outline-offset: 2px;
 }
 
 /*-----------------------------------
