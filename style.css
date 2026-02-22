@@ -24,8 +24,8 @@ body {
   max-width: 800px;
   margin: 0 auto;
   border: 1px solid #c45c4a;
-  outline: 3px dotted #c45c4a;
-  outline-offset: 8px;
+  outline: 2px dotted #c45c4a;
+  outline-offset: 5px;
 }
 
 /*-----------------------------------
