@@ -187,6 +187,8 @@ main {
   display: inline-block;
   border: 1px solid #8a7a9c;
   margin: 0;
+  outline: 1px dotted #8a7a9c;
+  outline-offset: 2px;
 }
 
 
