@@ -161,6 +161,15 @@ main {
   CONTENT BOX
 ---------------------------------*/
 
+.content-box {
+  border: 1px solid #c45c4a;
+  padding: 10px;
+  margin: 10px;
+  outline: 1px dotted #c45c4a;
+  outline-offset: 2px;
+  background-color: #f5f5dc;
+}
+
 .content-box h3 {
   border: 1px solid #c45c4a;
   padding: 10px;
@@ -174,8 +183,8 @@ main {
   padding: 10px;
   margin: 10px;
   background-image:
-    linear-gradient(#8a7a9c 1px, transparent 0.5px),
-    linear-gradient(90deg, #8a7a9c 1px, transparent 0.5px);
+	linear-gradient(#8a7a9c 1px, transparent 0.5px),
+	linear-gradient(90deg, #8a7a9c 1px, transparent 0.5px);
   background-size: 20px 20px;
   outline: 1px dotted #8a7a9c;
   outline-offset: 2px;
@@ -192,6 +201,15 @@ main {
   outline-offset: 2px;
 }
 
+.intro-box ul {
+  background-color: #f5f5dc;
+  padding: 15px 15px 15px 35px;
+  margin: 10px 0 0 0;
+  border: 1px solid #8a7a9c;
+  border-radius: 3px;
+  outline: 1px dotted #8a7a9c;
+  outline-offset: 2px;
+}
 
 /*-----------------------------------
   FOOTER
