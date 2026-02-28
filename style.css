@@ -474,11 +474,11 @@ figcaption:hover {
 }
 
 .submit-box p {
-  margin: 0 0 10px 0;
+  margin: 15px 0;
 }
 
 .submit-box ol {
-  margin: 0;
+  margin: 15px 0;
   padding-left: 20px;
 }
 
