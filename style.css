@@ -457,12 +457,11 @@ figcaption:hover {
 ---------------------------------*/
 
 .submit-box {
-  background-color: #f5f5dc;
   border: 2px dashed #c45c4a;
-  padding: 15px;
+  padding: 25px;  /* this adds space around ALL content inside */
   margin-bottom: 15px;
-  outline: 1px dotted #c45c4a;
-  outline-offset: 2px;
+  outline: 1px dotted;
+  outline-offset: 3px;
 }
 
 .submit-box h4 {
