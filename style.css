@@ -79,13 +79,13 @@ header p {
 
 .btn {
   display: inline-block;
-  padding: 8px 8px;
+  padding: 10px 16px;
   background-color: #c45c4a;
   color: #fff;
   text-decoration: none;
   border-radius: 8px;
   font-family: inherit;
-  font-size: 11px;
+  font-size: 14px;
   transition: all 0.3s ease;
 }
 
