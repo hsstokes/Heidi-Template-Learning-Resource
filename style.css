@@ -452,6 +452,47 @@ figcaption:hover {
 }
 
 /*-----------------------------------
+  SUBMIT BOX
+---------------------------------*/
+
+.submit-box {
+  background-color: #f5f5dc;
+  border: 2px dashed #c45c4a;
+  padding: 15px;
+  margin-bottom: 15px;
+  outline: 1px dotted #c45c4a;
+  outline-offset: 2px;
+}
+
+.submit-box h4 {
+  margin: 0 0 15px 0;
+  color: #c45c4a;
+  text-align: center;
+  border-bottom: 1px dashed #c45c4a;
+  padding-bottom: 8px;
+}
+
+.submit-box p {
+  margin: 0 0 10px 0;
+}
+
+.submit-box ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.submit-box li {
+  margin-bottom: 5px;
+}
+
+.submit-box .btn {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  margin-top: 15px;
+}
+
+/*-----------------------------------
   FOOTER
 ---------------------------------*/
 
