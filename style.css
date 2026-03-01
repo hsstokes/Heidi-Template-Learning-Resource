@@ -528,3 +528,186 @@ footer a.btn:hover {
   background-color: #a84a3a;
   transform: translateY(-2px);
 }
+
+/*-----------------------------------
+  RESEARCH GRID (Task 2)
+---------------------------------*/
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.research-card {
+  background-color: #f5f5dc;
+  padding: 15px;
+  outline-offset: 2px;
+}
+
+.research-card.primary {
+  border: 1px solid #c45c4a;
+  outline: 1px dotted #c45c4a;
+}
+
+.research-card.secondary {
+  border: 1px solid #8a7a9c;
+  outline: 1px dotted #8a7a9c;
+}
+
+.research-card h4 {
+  margin: 0 0 10px 0;
+  padding-bottom: 8px;
+}
+
+.research-card.primary h4 {
+  color: #c45c4a;
+  border-bottom: 1px dashed #c45c4a;
+}
+
+.research-card.secondary h4 {
+  color: #8a7a9c;
+  border-bottom: 1px dashed #8a7a9c;
+}
+
+.research-card p {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+}
+
+.research-card ul {
+  margin: 0 0 15px 0;
+  padding-left: 20px;
+}
+
+.research-card li {
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.research-card .card-image {
+  margin: 0;
+}
+
+.research-card .card-image img {
+  width: 100%;
+  height: auto;
+  border: 2px dotted;
+}
+
+.research-card.primary .card-image img {
+  border-color: #c45c4a;
+}
+
+.research-card.secondary .card-image img {
+  border-color: #8a7a9c;
+}
+
+/*-----------------------------------
+REFERENCE EXAMPLES (Task 2)
+---------------------------------*/
+
+.reference-examples {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.reference-item {
+  background-color: rgba(255,255,255,0.5);
+  padding: 12px;
+  border-left: 3px solid #7ecbc4;
+}
+
+.reference-label {
+  margin: 0 0 5px 0;
+  font-weight: bold;
+  color: #5a9a94;
+  font-size: 14px;
+}
+
+.reference-format {
+  margin: 0 0 8px 0;
+  font-family: monospace;
+  font-size: 13px;
+  background-color: #f5f5dc;
+  padding: 6px 10px;
+  border: 1px solid #7ecbc4;
+}
+
+.reference-example {
+  margin: 0;
+  font-size: 13px;
+  color: #666;
+  font-style: italic;
+}
+
+/*-----------------------------------
+EXAMPLE LARGE (Task 2)
+---------------------------------*/
+
+.example-large {
+  margin-bottom: 15px;
+}
+
+.example-large .image-container {
+  max-width: 100%;
+}
+
+/*-----------------------------------
+TIPS GRID (Task 2)
+---------------------------------*/
+
+.tip-box .tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.tip-item {
+  background-color: rgba(255,255,255,0.5);
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #7ecbc4;
+}
+
+.tip-item figure {
+  margin: 0 0 10px 0;
+}
+
+.tip-item img {
+  width: 100%;
+  height: auto;
+  border: 2px dotted #7ecbc4;
+  border-radius: 4px;
+}
+
+.tip-item p {
+  margin: 0 0 5px 0;
+  font-size: 13px;
+}
+
+.tip-item p:last-child {
+  color: #666;
+}
+
+/*-----------------------------------
+RESPONSIVE (Task 2)
+---------------------------------*/
+
+@media (max-width: 600px) {
+  .research-grid {
+      grid-template-columns: 1fr;
+  }
+  
+  .reference-examples {
+      grid-template-columns: 1fr;
+  }
+  
+  .tip-box .tips-grid {
+      grid-template-columns: 1fr;
+  }
+}
