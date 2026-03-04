@@ -1,73 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>CSS Learning Resource</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Overview: Lesson Title</title>
 </head>
 <body>
 
-  <div class="page-wrapper">
+    <div class="page-wrapper">
 
-	<div class="navigation-box">
-	  <nav>
-		<ul>
-		  <li><a href="index.html" class="btn active">Overview</a></li>
-		  <li><a href="task-1.html" class="btn">Task 1</a></li>
-		  <li><a href="task-2.html" class="btn">Task 2</a></li>
-		  <li><a href="task-3.html" class="btn">Task 3</a></li>
-		</ul>
-	  </nav>
-	</div>
+        <div class="navigation-box">
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="btn active">Overview</a></li>
+                    <li><a href="task-1.html" class="btn">Task 1</a></li>
+                    <li><a href="task-2.html" class="btn">Task 2</a></li>
+                    <li><a href="task-3.html" class="btn">Task 3</a></li>
+                </ul>
+            </nav>
+        </div>
 
-	<header>
-	  <h3>Creative Digital Skills</h3>
-	  <p>Heidi Learning Resource</p>
-	</header>
+        <header>
+            <h3>Creative Digital Skills</h3>
+            <p>Unit Name or Module</p>
+        </header>
 
-	<div class="content-box">
-	  <h3>Lesson Title</h3>
-	</div>
+        <div class="content-box">
+            <h3>Lesson Title Goes Here</h3>
+        </div>
 
-	<div class="intro-box">
-	  <h3>In this lesson you will learn</h3>
-	  <ul>
-		<li><b>Task 1:</b> How to</li>
-		<li><b>Task 2:</b> How to</li>
-		<li><b>Task 3:</b> How to</li>
-	  </ul>
-	</div>
+        <div class="intro-box">
+            <h3>What You Will Learn</h3>
+            <ul>
+                <li><strong>Task 1:</strong> Description of first skill or technique</li>
+                <li><strong>Task 2:</strong> Description of second skill or technique</li>
+                <li><strong>Task 3:</strong> Document your progress and reflect on learning</li>
+            </ul>
+        </div>
 
-	<main>
-	  <div class="examples-box">
-		<h4>Examples</h4>
-		<div class="examples-grid">
-		  <div class="example-card">
-			<img src="images/example-1.jpg" alt="Example 1">
-			<p>Example: Full Name</p>
-		  </div>
-		  <div class="example-card">
-			<img src="images/example-2.jpg" alt="Example 2">
-			<p>Example: Full Name</p>
-		  </div>
-		</div>
-	  </div>
-	
+        <main>
+            <div class="task-content-box">
+                <h4>About This Lesson</h4>
+                <p>Brief introduction explaining what students will create and why these skills matter. Connect to their broader coursework or upcoming projects.</p>
+                <p>By the end of this lesson, you will have created [specific outcome] and developed skills in [key techniques].</p>
+            </div>
 
-	<div class="checklist">
-	  <label><input type="checkbox">1. Homework prep</label>
-	  <label><input type="checkbox">2. Homework prep</label>
-	  <label><input type="checkbox">3. Homework prep</label>
-	</div>
-	
-	</main>
+            <figure class="image-container">
+                <a href="#lightbox-main">
+                    <img src="images/lesson-outcome.jpg" alt="Example of completed work from this lesson">
+                </a>
+                <figcaption>Click to enlarge</figcaption>
+            </figure>
 
-	<footer>
-	  <a href="task-1.html" class="btn">Next page</a>
-	</footer>
+            <div class="tip-box">
+                <h4>Before You Begin</h4>
+                <ul>
+                    <li><strong>Software needed:</strong> Photoshop / Illustrator / other</li>
+                    <li><strong>Files to download:</strong> Link to any starter files</li>
+                    <li><strong>Time required:</strong> Approximately X hours</li>
+                    <li><strong>Prior knowledge:</strong> Basic familiarity with [tool/concept]</li>
+                </ul>
+            </div>
 
-  </div>
+            <div class="examples-box">
+                <h4>Student Examples</h4>
+                <div class="examples-grid">
+                    <div class="example-card">
+                        <a href="#lightbox-1">
+                            <img src="images/example-1.jpg" alt="Student work example showing technique">
+                        </a>
+                        <p>Student Name</p>
+                    </div>
+                    <div class="example-card">
+                        <a href="#lightbox-2">
+                            <img src="images/example-2.jpg" alt="Student work example showing technique">
+                        </a>
+                        <p>Student Name</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="checklist">
+                <h4>Preparation Checklist</h4>
+                <label>
+                    <input type="checkbox">
+                    Software installed and updated
+                </label>
+                <label>
+                    <input type="checkbox">
+                    Starter files downloaded (if required)
+                </label>
+                <label>
+                    <input type="checkbox">
+                    Previous task completed (if this builds on earlier work)
+                </label>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-nav">
+                <span></span>
+                <a href="task-1.html" class="btn">Start Task 1 →</a>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Lightboxes -->
+    <div id="lightbox-main" class="lightbox">
+        <a href="#_">
+            <img src="images/lesson-outcome.jpg" alt="Example of completed work from this lesson">
+        </a>
+    </div>
+
+    <div id="lightbox-1" class="lightbox">
+        <a href="#_">
+            <img src="images/example-1.jpg" alt="Student work example showing technique">
+        </a>
+    </div>
+
+    <div id="lightbox-2" class="lightbox">
+        <a href="#_">
+            <img src="images/example-2.jpg" alt="Student work example showing technique">
+        </a>
+    </div>
 
 </body>
 </html>
